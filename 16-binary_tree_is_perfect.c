@@ -21,7 +21,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	return (binary_tree_is_perfect_rec(tree, degree, 0));
 }
 /**
- * isPerfectRec - Recursively checks if a binary tree is perfect
+ * binary_tree_is_perfect_rec - Recursively checks if a binary tree is perfect
  * @tree: a pointer to the root node of the tree to check
  * @degree: depth of the tree
  * @level: current level of the tree
